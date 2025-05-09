@@ -7,7 +7,7 @@ This automated ETL pipeline analyzes NBA player performance vs. salary to identi
 
 ## Features
 
-### 1. Data Collection & Processing
+### Data Collection & Processing
 - Extracts player and team statistics using nba_api and loads them into structured PostgreSQL tables for downstream processing.
 
 - Implements a local caching mechanism using Python's pickle module to avoid exceeding the rate limits of the NBA API.
@@ -31,7 +31,7 @@ This automated ETL pipeline analyzes NBA player performance vs. salary to identi
 - **SUM(value_pct_in_team)**: Player's value as a percentage of the team's total value.
 
 
-### 4. Output & Visualization
+### Output & Visualization
 - Generates a CSV file with processed metrics.
 
 - Uploads results to PostgreSQL database for further use.

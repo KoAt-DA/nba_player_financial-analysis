@@ -1,3 +1,5 @@
+Copyright 2025 KoAt-DA. All Rights Reserved.
+
 # NBA Player Value Analysis Pipeline
 
 ## Overview

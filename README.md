@@ -24,8 +24,8 @@ This automated ETL pipeline analyzes NBA player performance vs. salary to identi
 - **Key Metrics**: Calculates Player Value Average, Value per Dollar, position-based averages, and team value distribution.
 - **Visualization**: Superset dashboards show player value trends, filterable by team and player.
 - **Insights**:
-  - Jrue Holiday contributes 21.34% of the Boston Celtics' value, exceeding his 9.89% salary cap hit, indicating potential undervaluation.
-  - Naz Reid contributes 11.49% of the Minnesota Timberwolves' value, exceeding his 9.95% salary cap hit, suggesting undervaluation despite lower position-average performance.
+  - Jrue Holiday contributes 9.89% of the Boston Celtics' value, exceeding his 21.34% salary cap hit, indicating potential overvaluation.
+  - Naz Reid contributes 11.09% of the Minnesota Timberwolves' value, exceeding his 9.95% salary cap hit and his value per dollar( 0.56 ) is higher than his position averages ( 0.37 ), so he looks undervalued
 
 ## Key Metrics
 - **SUM(value_avg)**: Average player value based on performance stats (e.g., PER, points).
